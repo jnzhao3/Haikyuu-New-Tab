@@ -1,0 +1,66 @@
+body {
+    font-size: 500%;
+    cursor: url("pointer.png"), auto;
+    animation: fadeInAnimation ease 3s; 
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards; 
+} 
+#index {
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    text-transform: uppercase;
+    text-shadow: 2px 2px #adadad;
+}
+@keyframes fadeInAnimation { 
+    0% { 
+        opacity: 0; 
+    } 
+    100% { 
+        opacity: 1; 
+    } 
+} 
+
+#image {
+    margin: 0;
+    position: fixed;
+    vertical-align: bottom;
+    bottom: 0;
+    display:flex;
+    -ms-transform: translate(-50%, 0%);
+    transform: translate(-50%, 0%);   
+}
+
+img {
+    display: block;
+    max-width:450px;
+    max-height:450px;
+    width: auto;
+    height: auto;
+    cursor: url("hand.png"), auto;
+  }
+
+#clock {
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.options {
+    font-size: large;
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+    cursor: url("hand.png"), auto;
+}

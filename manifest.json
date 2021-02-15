@@ -1,0 +1,13 @@
+{
+    "name": "Haikyuu New Tab",
+    "version": "1.0",
+    "manifest_version": 2,
+    "description": "Replaces each new tab with a pastel background and an image from the Haikyuu manga.",
+    "chrome_url_overrides": {
+        "newtab": "page.html"
+    },
+    "browser_action": {
+        "default_title": "Haikyuu New Tab",
+        "default_icon": "hinataicon.png"
+    }
+}
