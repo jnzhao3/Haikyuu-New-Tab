@@ -1,8 +1,10 @@
+const baseDir = "img/";
+
 window.onload = function start() {
     var hex = chooseRandom(hexes);
     document.getElementById('index').style.background = hex.background;
     var image = chooseRandom(images);
-    document.getElementById("img").src = image.src;
+    document.getElementById("img").src = baseDir + image.src;
     document.getElementById("image").style.left = 10 + Math.random()*80 + "%";
 }
 
@@ -47,5 +49,5 @@ document.getElementById("image").addEventListener("click", animate);
 function animate() {
     document.getElementById("image").style.left = 10 + Math.random()*80 + "%";
     var image = chooseRandom(images);
-    document.getElementById("img").src = image.src;
+    document.getElementById("img").src = baseDir + image.src;
 }
