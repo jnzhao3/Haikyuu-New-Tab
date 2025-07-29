@@ -1,9 +1,15 @@
 body {
     font-size: 500%;
-    cursor: url("pointer.png"), auto;
+    cursor: url("img/pointer.png"), auto;
     animation: fadeInAnimation ease 3s; 
     animation-iteration-count: 1; 
     animation-fill-mode: forwards; 
+    -webkit-touch-callout: none;   /* iOS Safari */
+    -webkit-user-select: none;     /* Chrome, Safari, Opera */
+    -khtml-user-select: none;      /* Konqueror browsers */
+    -moz-user-select: none;        /* Firefox */
+    -ms-user-select: none;         /* IE10+ / Edge */
+    user-select: none;             /* Standard syntax */
 } 
 #index {
     color: rgb(255, 255, 255);
@@ -39,7 +45,7 @@ img {
     max-height:450px;
     width: auto;
     height: auto;
-    cursor: url("hand.png"), auto;
+    cursor: url("img/hand.png"), auto;
   }
 
 #clock {
