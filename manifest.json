@@ -1,6 +1,6 @@
 {
     "name": "Haikyuu New Tab",
-    "version": "1.1",
+    "version": "1.1.1",
     "manifest_version": 3,
     "description": "Replaces each new tab with a pastel background and an image from the Haikyuu manga.",
     "icons": {
